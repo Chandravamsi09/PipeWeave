@@ -3,7 +3,7 @@
  * React 19 / TypeScript Production UI Component
  */
 import React, { useState } from "react";
-import { usePipelineStore } from "../store/usePipelineStore";
+import { usePipelineStore } from "../../store/usePipelineStore";
 
 export const StudioViewComponent18: React.FC = () => {
   const { currentPipeline } = usePipelineStore();
