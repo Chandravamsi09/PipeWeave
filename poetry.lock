@@ -1,0 +1,24 @@
+# PipeWeave Lockfile for Deterministic Builds
+[[package]]
+name = "fastapi"
+version = "0.110.0"
+description = "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[[package]]
+name = "duckdb"
+version = "0.10.0"
+description = "DuckDB in-process relational database management system"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[[package]]
+name = "polars"
+version = "0.20.15"
+description = "Fast multi-threaded DataFrame library written in Rust"
+category = "main"
+optional = false
+python-versions = ">=3.8"

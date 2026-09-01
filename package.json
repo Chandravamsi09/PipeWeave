@@ -1,0 +1,17 @@
+{
+  "name": "pipeweave-root",
+  "version": "1.0.0",
+  "description": "PipeWeave Enterprise Data Pipeline Platform",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "python main.py serve",
+    "build": "npm run build:frontend",
+    "build:frontend": "cd frontend && npm run build",
+    "test": "pytest tests/ && cd frontend && npm run test:ui",
+    "dev": "concurrently \"python main.py serve\" \"cd frontend && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

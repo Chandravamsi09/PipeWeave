@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  pipeweave-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - PIPEWEAVE_ENV=production
+      - PIPEWEAVE_WORKER_CONCURRENCY=16
+    volumes:
+      - pipeweave-storage:/app/data
+
+volumes:
+  pipeweave-storage:
