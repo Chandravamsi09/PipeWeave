@@ -1,0 +1,2386 @@
+[
+  {
+    "fixture_id": "FIX-30-00001",
+    "sequence_number": 1,
+    "entity_uuid": "usr-1030-1",
+    "primary_metric": 12.345,
+    "secondary_metric": 0.98,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T01:01:01Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_1_68496"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00002",
+    "sequence_number": 2,
+    "entity_uuid": "usr-1030-2",
+    "primary_metric": 24.69,
+    "secondary_metric": 1.96,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T02:02:02Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_2_33549"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00003",
+    "sequence_number": 3,
+    "entity_uuid": "usr-1030-3",
+    "primary_metric": 37.035,
+    "secondary_metric": 2.94,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T03:03:03Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_3_70552"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00004",
+    "sequence_number": 4,
+    "entity_uuid": "usr-1030-4",
+    "primary_metric": 49.38,
+    "secondary_metric": 3.92,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T04:04:04Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_4_80340"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00005",
+    "sequence_number": 5,
+    "entity_uuid": "usr-1030-5",
+    "primary_metric": 61.725,
+    "secondary_metric": 4.9,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T05:05:05Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_5_62172"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00006",
+    "sequence_number": 6,
+    "entity_uuid": "usr-1030-6",
+    "primary_metric": 74.07,
+    "secondary_metric": 5.88,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T06:06:06Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_6_36418"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00007",
+    "sequence_number": 7,
+    "entity_uuid": "usr-1030-7",
+    "primary_metric": 86.415,
+    "secondary_metric": 6.86,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T07:07:07Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_7_15424"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00008",
+    "sequence_number": 8,
+    "entity_uuid": "usr-1030-8",
+    "primary_metric": 98.76,
+    "secondary_metric": 7.84,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T08:08:08Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_8_39352"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00009",
+    "sequence_number": 9,
+    "entity_uuid": "usr-1030-9",
+    "primary_metric": 111.105,
+    "secondary_metric": 8.82,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T09:09:09Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_9_87248"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00010",
+    "sequence_number": 10,
+    "entity_uuid": "usr-1030-10",
+    "primary_metric": 123.45,
+    "secondary_metric": 9.8,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T10:10:10Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_10_67012"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00011",
+    "sequence_number": 11,
+    "entity_uuid": "usr-1030-11",
+    "primary_metric": 135.795,
+    "secondary_metric": 10.78,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T11:11:11Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_11_32506"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00012",
+    "sequence_number": 12,
+    "entity_uuid": "usr-1030-12",
+    "primary_metric": 148.14,
+    "secondary_metric": 11.76,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T12:12:12Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_12_27126"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00013",
+    "sequence_number": 13,
+    "entity_uuid": "usr-1030-13",
+    "primary_metric": 160.485,
+    "secondary_metric": 12.74,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T13:13:13Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_13_74953"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00014",
+    "sequence_number": 14,
+    "entity_uuid": "usr-1030-14",
+    "primary_metric": 172.83,
+    "secondary_metric": 13.72,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T14:14:14Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_14_77365"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00015",
+    "sequence_number": 15,
+    "entity_uuid": "usr-1030-15",
+    "primary_metric": 185.175,
+    "secondary_metric": 14.7,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T15:15:15Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_15_18750"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00016",
+    "sequence_number": 16,
+    "entity_uuid": "usr-1030-16",
+    "primary_metric": 197.52,
+    "secondary_metric": 15.68,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T16:16:16Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_16_74355"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00017",
+    "sequence_number": 17,
+    "entity_uuid": "usr-1030-17",
+    "primary_metric": 209.865,
+    "secondary_metric": 16.66,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T17:17:17Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_17_86988"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00018",
+    "sequence_number": 18,
+    "entity_uuid": "usr-1030-18",
+    "primary_metric": 222.21,
+    "secondary_metric": 17.64,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T18:18:18Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_18_35611"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00019",
+    "sequence_number": 19,
+    "entity_uuid": "usr-1030-19",
+    "primary_metric": 234.555,
+    "secondary_metric": 18.62,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T19:19:19Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_19_82984"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00020",
+    "sequence_number": 20,
+    "entity_uuid": "usr-1030-20",
+    "primary_metric": 246.9,
+    "secondary_metric": 19.6,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T20:20:20Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_20_91936"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00021",
+    "sequence_number": 21,
+    "entity_uuid": "usr-1030-21",
+    "primary_metric": 259.245,
+    "secondary_metric": 20.58,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T21:21:21Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_21_27153"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00022",
+    "sequence_number": 22,
+    "entity_uuid": "usr-1030-22",
+    "primary_metric": 271.59,
+    "secondary_metric": 21.56,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T22:22:22Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_22_75117"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00023",
+    "sequence_number": 23,
+    "entity_uuid": "usr-1030-23",
+    "primary_metric": 283.935,
+    "secondary_metric": 22.54,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T23:23:23Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_23_42955"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00024",
+    "sequence_number": 24,
+    "entity_uuid": "usr-1030-24",
+    "primary_metric": 296.28,
+    "secondary_metric": 23.52,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T00:24:24Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_24_29927"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00025",
+    "sequence_number": 25,
+    "entity_uuid": "usr-1030-25",
+    "primary_metric": 308.625,
+    "secondary_metric": 24.5,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T01:25:25Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_25_80151"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00026",
+    "sequence_number": 26,
+    "entity_uuid": "usr-1030-26",
+    "primary_metric": 320.97,
+    "secondary_metric": 25.48,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T02:26:26Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_26_32013"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00027",
+    "sequence_number": 27,
+    "entity_uuid": "usr-1030-27",
+    "primary_metric": 333.315,
+    "secondary_metric": 26.46,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T03:27:27Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_27_58985"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00028",
+    "sequence_number": 28,
+    "entity_uuid": "usr-1030-28",
+    "primary_metric": 345.66,
+    "secondary_metric": 27.44,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T04:28:28Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_28_98692"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00029",
+    "sequence_number": 29,
+    "entity_uuid": "usr-1030-29",
+    "primary_metric": 358.005,
+    "secondary_metric": 28.42,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T05:29:29Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_29_35733"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00030",
+    "sequence_number": 30,
+    "entity_uuid": "usr-1030-30",
+    "primary_metric": 370.35,
+    "secondary_metric": 29.4,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T06:30:30Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_30_85758"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00031",
+    "sequence_number": 31,
+    "entity_uuid": "usr-1030-31",
+    "primary_metric": 382.695,
+    "secondary_metric": 30.38,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T07:31:31Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_31_43824"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00032",
+    "sequence_number": 32,
+    "entity_uuid": "usr-1030-32",
+    "primary_metric": 395.04,
+    "secondary_metric": 31.36,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T08:32:32Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_32_35902"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00033",
+    "sequence_number": 33,
+    "entity_uuid": "usr-1030-33",
+    "primary_metric": 407.385,
+    "secondary_metric": 32.34,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T09:33:33Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_33_13225"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00034",
+    "sequence_number": 34,
+    "entity_uuid": "usr-1030-34",
+    "primary_metric": 419.73,
+    "secondary_metric": 33.32,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T10:34:34Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_34_40612"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00035",
+    "sequence_number": 35,
+    "entity_uuid": "usr-1030-35",
+    "primary_metric": 432.075,
+    "secondary_metric": 34.3,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T11:35:35Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_35_24961"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00036",
+    "sequence_number": 36,
+    "entity_uuid": "usr-1030-36",
+    "primary_metric": 444.42,
+    "secondary_metric": 35.28,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T12:36:36Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_36_69277"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00037",
+    "sequence_number": 37,
+    "entity_uuid": "usr-1030-37",
+    "primary_metric": 456.765,
+    "secondary_metric": 36.26,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T13:37:37Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_37_44144"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00038",
+    "sequence_number": 38,
+    "entity_uuid": "usr-1030-38",
+    "primary_metric": 469.11,
+    "secondary_metric": 37.24,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T14:38:38Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_38_95012"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00039",
+    "sequence_number": 39,
+    "entity_uuid": "usr-1030-39",
+    "primary_metric": 481.455,
+    "secondary_metric": 38.22,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T15:39:39Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_39_34908"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00040",
+    "sequence_number": 40,
+    "entity_uuid": "usr-1030-40",
+    "primary_metric": 493.8,
+    "secondary_metric": 39.2,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T16:40:40Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_40_33577"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00041",
+    "sequence_number": 41,
+    "entity_uuid": "usr-1030-41",
+    "primary_metric": 506.145,
+    "secondary_metric": 40.18,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T17:41:41Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_41_40373"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00042",
+    "sequence_number": 42,
+    "entity_uuid": "usr-1030-42",
+    "primary_metric": 518.49,
+    "secondary_metric": 41.16,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T18:42:42Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_42_33447"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00043",
+    "sequence_number": 43,
+    "entity_uuid": "usr-1030-43",
+    "primary_metric": 530.835,
+    "secondary_metric": 42.14,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T19:43:43Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_43_40457"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00044",
+    "sequence_number": 44,
+    "entity_uuid": "usr-1030-44",
+    "primary_metric": 543.18,
+    "secondary_metric": 43.12,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T20:44:44Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_44_50755"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00045",
+    "sequence_number": 45,
+    "entity_uuid": "usr-1030-45",
+    "primary_metric": 555.525,
+    "secondary_metric": 44.1,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T21:45:45Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_45_16523"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00046",
+    "sequence_number": 46,
+    "entity_uuid": "usr-1030-46",
+    "primary_metric": 567.87,
+    "secondary_metric": 45.08,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T22:46:46Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_46_53140"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00047",
+    "sequence_number": 47,
+    "entity_uuid": "usr-1030-47",
+    "primary_metric": 580.215,
+    "secondary_metric": 46.06,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T23:47:47Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_47_95311"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00048",
+    "sequence_number": 48,
+    "entity_uuid": "usr-1030-48",
+    "primary_metric": 592.56,
+    "secondary_metric": 47.04,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T00:48:48Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_48_94033"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00049",
+    "sequence_number": 49,
+    "entity_uuid": "usr-1030-49",
+    "primary_metric": 604.905,
+    "secondary_metric": 48.02,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T01:49:49Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_49_44719"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00050",
+    "sequence_number": 50,
+    "entity_uuid": "usr-1030-50",
+    "primary_metric": 617.25,
+    "secondary_metric": 49.0,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T02:50:50Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_50_92283"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00051",
+    "sequence_number": 51,
+    "entity_uuid": "usr-1030-51",
+    "primary_metric": 629.595,
+    "secondary_metric": 49.98,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T03:51:51Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_51_44484"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00052",
+    "sequence_number": 52,
+    "entity_uuid": "usr-1030-52",
+    "primary_metric": 641.94,
+    "secondary_metric": 50.96,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T04:52:52Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_52_48293"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00053",
+    "sequence_number": 53,
+    "entity_uuid": "usr-1030-53",
+    "primary_metric": 654.285,
+    "secondary_metric": 51.94,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T05:53:53Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_53_99321"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00054",
+    "sequence_number": 54,
+    "entity_uuid": "usr-1030-54",
+    "primary_metric": 666.63,
+    "secondary_metric": 52.92,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T06:54:54Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_54_39473"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00055",
+    "sequence_number": 55,
+    "entity_uuid": "usr-1030-55",
+    "primary_metric": 678.975,
+    "secondary_metric": 53.9,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T07:55:55Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_55_14531"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00056",
+    "sequence_number": 56,
+    "entity_uuid": "usr-1030-56",
+    "primary_metric": 691.32,
+    "secondary_metric": 54.88,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T08:56:56Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_56_12650"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00057",
+    "sequence_number": 57,
+    "entity_uuid": "usr-1030-57",
+    "primary_metric": 703.665,
+    "secondary_metric": 55.86,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T09:57:57Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_57_58148"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00058",
+    "sequence_number": 58,
+    "entity_uuid": "usr-1030-58",
+    "primary_metric": 716.01,
+    "secondary_metric": 56.84,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T10:58:58Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_58_53647"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00059",
+    "sequence_number": 59,
+    "entity_uuid": "usr-1030-59",
+    "primary_metric": 728.355,
+    "secondary_metric": 57.82,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T11:59:59Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_59_69440"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00060",
+    "sequence_number": 60,
+    "entity_uuid": "usr-1030-60",
+    "primary_metric": 740.7,
+    "secondary_metric": 58.8,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T12:00:00Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_60_58911"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00061",
+    "sequence_number": 61,
+    "entity_uuid": "usr-1030-61",
+    "primary_metric": 753.045,
+    "secondary_metric": 59.78,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T13:01:01Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_61_28550"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00062",
+    "sequence_number": 62,
+    "entity_uuid": "usr-1030-62",
+    "primary_metric": 765.39,
+    "secondary_metric": 60.76,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T14:02:02Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_62_98282"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00063",
+    "sequence_number": 63,
+    "entity_uuid": "usr-1030-63",
+    "primary_metric": 777.735,
+    "secondary_metric": 61.74,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T15:03:03Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_63_59081"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00064",
+    "sequence_number": 64,
+    "entity_uuid": "usr-1030-64",
+    "primary_metric": 790.08,
+    "secondary_metric": 62.72,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T16:04:04Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_64_41848"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00065",
+    "sequence_number": 65,
+    "entity_uuid": "usr-1030-65",
+    "primary_metric": 802.425,
+    "secondary_metric": 63.7,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T17:05:05Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_65_53952"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00066",
+    "sequence_number": 66,
+    "entity_uuid": "usr-1030-66",
+    "primary_metric": 814.77,
+    "secondary_metric": 64.68,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T18:06:06Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_66_20648"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00067",
+    "sequence_number": 67,
+    "entity_uuid": "usr-1030-67",
+    "primary_metric": 827.115,
+    "secondary_metric": 65.66,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T19:07:07Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_67_40208"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00068",
+    "sequence_number": 68,
+    "entity_uuid": "usr-1030-68",
+    "primary_metric": 839.46,
+    "secondary_metric": 66.64,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T20:08:08Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_68_62887"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00069",
+    "sequence_number": 69,
+    "entity_uuid": "usr-1030-69",
+    "primary_metric": 851.805,
+    "secondary_metric": 67.62,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T21:09:09Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_69_16741"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00070",
+    "sequence_number": 70,
+    "entity_uuid": "usr-1030-70",
+    "primary_metric": 864.15,
+    "secondary_metric": 68.6,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T22:10:10Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_70_66840"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00071",
+    "sequence_number": 71,
+    "entity_uuid": "usr-1030-71",
+    "primary_metric": 876.495,
+    "secondary_metric": 69.58,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T23:11:11Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_71_95489"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00072",
+    "sequence_number": 72,
+    "entity_uuid": "usr-1030-72",
+    "primary_metric": 888.84,
+    "secondary_metric": 70.56,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T00:12:12Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_72_19740"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00073",
+    "sequence_number": 73,
+    "entity_uuid": "usr-1030-73",
+    "primary_metric": 901.185,
+    "secondary_metric": 71.54,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T01:13:13Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_73_48824"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00074",
+    "sequence_number": 74,
+    "entity_uuid": "usr-1030-74",
+    "primary_metric": 913.53,
+    "secondary_metric": 72.52,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T02:14:14Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_74_90306"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00075",
+    "sequence_number": 75,
+    "entity_uuid": "usr-1030-75",
+    "primary_metric": 925.875,
+    "secondary_metric": 73.5,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T03:15:15Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_75_16987"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00076",
+    "sequence_number": 76,
+    "entity_uuid": "usr-1030-76",
+    "primary_metric": 938.22,
+    "secondary_metric": 74.48,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T04:16:16Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_76_71480"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00077",
+    "sequence_number": 77,
+    "entity_uuid": "usr-1030-77",
+    "primary_metric": 950.565,
+    "secondary_metric": 75.46,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T05:17:17Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_77_45877"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00078",
+    "sequence_number": 78,
+    "entity_uuid": "usr-1030-78",
+    "primary_metric": 962.91,
+    "secondary_metric": 76.44,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T06:18:18Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_78_25337"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00079",
+    "sequence_number": 79,
+    "entity_uuid": "usr-1030-79",
+    "primary_metric": 975.255,
+    "secondary_metric": 77.42,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T07:19:19Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_79_65185"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00080",
+    "sequence_number": 80,
+    "entity_uuid": "usr-1030-80",
+    "primary_metric": 987.6,
+    "secondary_metric": 78.4,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T08:20:20Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_80_77659"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00081",
+    "sequence_number": 81,
+    "entity_uuid": "usr-1030-81",
+    "primary_metric": 999.945,
+    "secondary_metric": 79.38,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T09:21:21Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_81_94496"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00082",
+    "sequence_number": 82,
+    "entity_uuid": "usr-1030-82",
+    "primary_metric": 1012.29,
+    "secondary_metric": 80.36,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T10:22:22Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_82_22476"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00083",
+    "sequence_number": 83,
+    "entity_uuid": "usr-1030-83",
+    "primary_metric": 1024.635,
+    "secondary_metric": 81.34,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T11:23:23Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_83_12533"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00084",
+    "sequence_number": 84,
+    "entity_uuid": "usr-1030-84",
+    "primary_metric": 1036.98,
+    "secondary_metric": 82.32,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T12:24:24Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_84_16048"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00085",
+    "sequence_number": 85,
+    "entity_uuid": "usr-1030-85",
+    "primary_metric": 1049.325,
+    "secondary_metric": 83.3,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T13:25:25Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_85_97477"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00086",
+    "sequence_number": 86,
+    "entity_uuid": "usr-1030-86",
+    "primary_metric": 1061.67,
+    "secondary_metric": 84.28,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T14:26:26Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_86_59975"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00087",
+    "sequence_number": 87,
+    "entity_uuid": "usr-1030-87",
+    "primary_metric": 1074.015,
+    "secondary_metric": 85.26,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T15:27:27Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_87_31775"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00088",
+    "sequence_number": 88,
+    "entity_uuid": "usr-1030-88",
+    "primary_metric": 1086.36,
+    "secondary_metric": 86.24,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T16:28:28Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_88_53522"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00089",
+    "sequence_number": 89,
+    "entity_uuid": "usr-1030-89",
+    "primary_metric": 1098.705,
+    "secondary_metric": 87.22,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T17:29:29Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_89_75059"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00090",
+    "sequence_number": 90,
+    "entity_uuid": "usr-1030-90",
+    "primary_metric": 1111.05,
+    "secondary_metric": 88.2,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T18:30:30Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_90_61187"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00091",
+    "sequence_number": 91,
+    "entity_uuid": "usr-1030-91",
+    "primary_metric": 1123.395,
+    "secondary_metric": 89.18,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T19:31:31Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_91_28987"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00092",
+    "sequence_number": 92,
+    "entity_uuid": "usr-1030-92",
+    "primary_metric": 1135.74,
+    "secondary_metric": 90.16,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T20:32:32Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_92_20421"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00093",
+    "sequence_number": 93,
+    "entity_uuid": "usr-1030-93",
+    "primary_metric": 1148.085,
+    "secondary_metric": 91.14,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T21:33:33Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_93_63366"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00094",
+    "sequence_number": 94,
+    "entity_uuid": "usr-1030-94",
+    "primary_metric": 1160.43,
+    "secondary_metric": 92.12,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T22:34:34Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_94_22465"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00095",
+    "sequence_number": 95,
+    "entity_uuid": "usr-1030-95",
+    "primary_metric": 1172.775,
+    "secondary_metric": 93.1,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T23:35:35Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_95_34641"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00096",
+    "sequence_number": 96,
+    "entity_uuid": "usr-1030-96",
+    "primary_metric": 1185.12,
+    "secondary_metric": 94.08,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T00:36:36Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_96_30979"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00097",
+    "sequence_number": 97,
+    "entity_uuid": "usr-1030-97",
+    "primary_metric": 1197.465,
+    "secondary_metric": 95.06,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T01:37:37Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_97_75069"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00098",
+    "sequence_number": 98,
+    "entity_uuid": "usr-1030-98",
+    "primary_metric": 1209.81,
+    "secondary_metric": 96.04,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T02:38:38Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_98_83028"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00099",
+    "sequence_number": 99,
+    "entity_uuid": "usr-1030-99",
+    "primary_metric": 1222.155,
+    "secondary_metric": 97.02,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T03:39:39Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_99_98948"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00100",
+    "sequence_number": 100,
+    "entity_uuid": "usr-1030-100",
+    "primary_metric": 1234.5,
+    "secondary_metric": 98.0,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T04:40:40Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_100_57328"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00101",
+    "sequence_number": 101,
+    "entity_uuid": "usr-1030-101",
+    "primary_metric": 1246.845,
+    "secondary_metric": 98.98,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T05:41:41Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_101_82181"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00102",
+    "sequence_number": 102,
+    "entity_uuid": "usr-1030-102",
+    "primary_metric": 1259.19,
+    "secondary_metric": 99.96,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T06:42:42Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_102_52384"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00103",
+    "sequence_number": 103,
+    "entity_uuid": "usr-1030-103",
+    "primary_metric": 1271.535,
+    "secondary_metric": 100.94,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T07:43:43Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_103_90277"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00104",
+    "sequence_number": 104,
+    "entity_uuid": "usr-1030-104",
+    "primary_metric": 1283.88,
+    "secondary_metric": 101.92,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T08:44:44Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_104_90934"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00105",
+    "sequence_number": 105,
+    "entity_uuid": "usr-1030-105",
+    "primary_metric": 1296.225,
+    "secondary_metric": 102.9,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T09:45:45Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_105_15134"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00106",
+    "sequence_number": 106,
+    "entity_uuid": "usr-1030-106",
+    "primary_metric": 1308.57,
+    "secondary_metric": 103.88,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T10:46:46Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_106_93494"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00107",
+    "sequence_number": 107,
+    "entity_uuid": "usr-1030-107",
+    "primary_metric": 1320.915,
+    "secondary_metric": 104.86,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T11:47:47Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_107_44919"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00108",
+    "sequence_number": 108,
+    "entity_uuid": "usr-1030-108",
+    "primary_metric": 1333.26,
+    "secondary_metric": 105.84,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T12:48:48Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_108_25061"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00109",
+    "sequence_number": 109,
+    "entity_uuid": "usr-1030-109",
+    "primary_metric": 1345.605,
+    "secondary_metric": 106.82,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T13:49:49Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_109_69435"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00110",
+    "sequence_number": 110,
+    "entity_uuid": "usr-1030-110",
+    "primary_metric": 1357.95,
+    "secondary_metric": 107.8,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T14:50:50Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_110_20687"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00111",
+    "sequence_number": 111,
+    "entity_uuid": "usr-1030-111",
+    "primary_metric": 1370.295,
+    "secondary_metric": 108.78,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T15:51:51Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_111_48625"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00112",
+    "sequence_number": 112,
+    "entity_uuid": "usr-1030-112",
+    "primary_metric": 1382.64,
+    "secondary_metric": 109.76,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T16:52:52Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_112_47172"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00113",
+    "sequence_number": 113,
+    "entity_uuid": "usr-1030-113",
+    "primary_metric": 1394.985,
+    "secondary_metric": 110.74,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T17:53:53Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_113_80502"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00114",
+    "sequence_number": 114,
+    "entity_uuid": "usr-1030-114",
+    "primary_metric": 1407.33,
+    "secondary_metric": 111.72,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T18:54:54Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_114_82466"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00115",
+    "sequence_number": 115,
+    "entity_uuid": "usr-1030-115",
+    "primary_metric": 1419.675,
+    "secondary_metric": 112.7,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T19:55:55Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_115_84205"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00116",
+    "sequence_number": 116,
+    "entity_uuid": "usr-1030-116",
+    "primary_metric": 1432.02,
+    "secondary_metric": 113.68,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T20:56:56Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_116_91078"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00117",
+    "sequence_number": 117,
+    "entity_uuid": "usr-1030-117",
+    "primary_metric": 1444.365,
+    "secondary_metric": 114.66,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T21:57:57Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_117_13859"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00118",
+    "sequence_number": 118,
+    "entity_uuid": "usr-1030-118",
+    "primary_metric": 1456.71,
+    "secondary_metric": 115.64,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T22:58:58Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_118_77411"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00119",
+    "sequence_number": 119,
+    "entity_uuid": "usr-1030-119",
+    "primary_metric": 1469.055,
+    "secondary_metric": 116.62,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T23:59:59Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_119_25312"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00120",
+    "sequence_number": 120,
+    "entity_uuid": "usr-1030-120",
+    "primary_metric": 1481.4,
+    "secondary_metric": 117.6,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T00:00:00Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_120_83705"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00121",
+    "sequence_number": 121,
+    "entity_uuid": "usr-1030-121",
+    "primary_metric": 1493.745,
+    "secondary_metric": 118.58,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T01:01:01Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_121_20437"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00122",
+    "sequence_number": 122,
+    "entity_uuid": "usr-1030-122",
+    "primary_metric": 1506.09,
+    "secondary_metric": 119.56,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T02:02:02Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_122_66471"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00123",
+    "sequence_number": 123,
+    "entity_uuid": "usr-1030-123",
+    "primary_metric": 1518.435,
+    "secondary_metric": 120.54,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T03:03:03Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_123_29666"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00124",
+    "sequence_number": 124,
+    "entity_uuid": "usr-1030-124",
+    "primary_metric": 1530.78,
+    "secondary_metric": 121.52,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T04:04:04Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_124_36118"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00125",
+    "sequence_number": 125,
+    "entity_uuid": "usr-1030-125",
+    "primary_metric": 1543.125,
+    "secondary_metric": 122.5,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T05:05:05Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_125_92052"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00126",
+    "sequence_number": 126,
+    "entity_uuid": "usr-1030-126",
+    "primary_metric": 1555.47,
+    "secondary_metric": 123.48,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T06:06:06Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_126_93953"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00127",
+    "sequence_number": 127,
+    "entity_uuid": "usr-1030-127",
+    "primary_metric": 1567.815,
+    "secondary_metric": 124.46,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T07:07:07Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_127_33737"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00128",
+    "sequence_number": 128,
+    "entity_uuid": "usr-1030-128",
+    "primary_metric": 1580.16,
+    "secondary_metric": 125.44,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T08:08:08Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_128_10762"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00129",
+    "sequence_number": 129,
+    "entity_uuid": "usr-1030-129",
+    "primary_metric": 1592.505,
+    "secondary_metric": 126.42,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T09:09:09Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_129_30579"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00130",
+    "sequence_number": 130,
+    "entity_uuid": "usr-1030-130",
+    "primary_metric": 1604.85,
+    "secondary_metric": 127.4,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T10:10:10Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_130_66997"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00131",
+    "sequence_number": 131,
+    "entity_uuid": "usr-1030-131",
+    "primary_metric": 1617.195,
+    "secondary_metric": 128.38,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T11:11:11Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_131_93463"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00132",
+    "sequence_number": 132,
+    "entity_uuid": "usr-1030-132",
+    "primary_metric": 1629.54,
+    "secondary_metric": 129.36,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T12:12:12Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_132_97085"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00133",
+    "sequence_number": 133,
+    "entity_uuid": "usr-1030-133",
+    "primary_metric": 1641.885,
+    "secondary_metric": 130.34,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T13:13:13Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_133_42333"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00134",
+    "sequence_number": 134,
+    "entity_uuid": "usr-1030-134",
+    "primary_metric": 1654.23,
+    "secondary_metric": 131.32,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T14:14:14Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_134_29959"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00135",
+    "sequence_number": 135,
+    "entity_uuid": "usr-1030-135",
+    "primary_metric": 1666.575,
+    "secondary_metric": 132.3,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T15:15:15Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_135_60264"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00136",
+    "sequence_number": 136,
+    "entity_uuid": "usr-1030-136",
+    "primary_metric": 1678.92,
+    "secondary_metric": 133.28,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T16:16:16Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_136_48769"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00137",
+    "sequence_number": 137,
+    "entity_uuid": "usr-1030-137",
+    "primary_metric": 1691.265,
+    "secondary_metric": 134.26,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T17:17:17Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_137_68034"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00138",
+    "sequence_number": 138,
+    "entity_uuid": "usr-1030-138",
+    "primary_metric": 1703.61,
+    "secondary_metric": 135.24,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T18:18:18Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_138_69976"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00139",
+    "sequence_number": 139,
+    "entity_uuid": "usr-1030-139",
+    "primary_metric": 1715.955,
+    "secondary_metric": 136.22,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T19:19:19Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_139_95648"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00140",
+    "sequence_number": 140,
+    "entity_uuid": "usr-1030-140",
+    "primary_metric": 1728.3,
+    "secondary_metric": 137.2,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T20:20:20Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_140_76578"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00141",
+    "sequence_number": 141,
+    "entity_uuid": "usr-1030-141",
+    "primary_metric": 1740.645,
+    "secondary_metric": 138.18,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T21:21:21Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_141_15439"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00142",
+    "sequence_number": 142,
+    "entity_uuid": "usr-1030-142",
+    "primary_metric": 1752.99,
+    "secondary_metric": 139.16,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T22:22:22Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_142_14558"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00143",
+    "sequence_number": 143,
+    "entity_uuid": "usr-1030-143",
+    "primary_metric": 1765.335,
+    "secondary_metric": 140.14,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T23:23:23Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_143_54780"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00144",
+    "sequence_number": 144,
+    "entity_uuid": "usr-1030-144",
+    "primary_metric": 1777.68,
+    "secondary_metric": 141.12,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T00:24:24Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_144_96003"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00145",
+    "sequence_number": 145,
+    "entity_uuid": "usr-1030-145",
+    "primary_metric": 1790.025,
+    "secondary_metric": 142.1,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_1",
+    "recorded_timestamp": "2026-09-01T01:25:25Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_145_88147"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00146",
+    "sequence_number": 146,
+    "entity_uuid": "usr-1030-146",
+    "primary_metric": 1802.37,
+    "secondary_metric": 143.08,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_2",
+    "recorded_timestamp": "2026-09-01T02:26:26Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_146_15015"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00147",
+    "sequence_number": 147,
+    "entity_uuid": "usr-1030-147",
+    "primary_metric": 1814.715,
+    "secondary_metric": 144.06,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_3",
+    "recorded_timestamp": "2026-09-01T03:27:27Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_147_50882"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00148",
+    "sequence_number": 148,
+    "entity_uuid": "usr-1030-148",
+    "primary_metric": 1827.06,
+    "secondary_metric": 145.04,
+    "status_flag": "PROCESSED",
+    "region_code": "REGION_4",
+    "recorded_timestamp": "2026-09-01T04:28:28Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_148_20202"
+    }
+  },
+  {
+    "fixture_id": "FIX-30-00149",
+    "sequence_number": 149,
+    "entity_uuid": "usr-1030-149",
+    "primary_metric": 1839.405,
+    "secondary_metric": 146.02,
+    "status_flag": "VALIDATED",
+    "region_code": "REGION_5",
+    "recorded_timestamp": "2026-09-01T05:29:29Z",
+    "metadata": {
+      "datacenter": "us-east-1",
+      "sampling_ratio": 1.0,
+      "schema_version": "v30.0.0",
+      "checksum": "chk_30_149_93890"
+    }
+  }
+]
