@@ -16,7 +16,6 @@ import {
   HardDrive,
   RefreshCw,
   AlertTriangle,
-  Send,
   Plus
 } from 'lucide-react';
 
@@ -83,7 +82,7 @@ ORDER BY total_revenue DESC;`);
         setPipeline(data);
       }
     } catch (err) {
-      console.warn('API not reachable yet, using fallback structure');
+      console.warn('API fallback');
     }
   };
 
@@ -135,7 +134,6 @@ ORDER BY total_revenue DESC;`);
     }
   };
 
-  // Poll Telemetry
   useEffect(() => {
     fetchPipeline();
     fetchSchemas();
@@ -156,7 +154,7 @@ ORDER BY total_revenue DESC;`);
     return () => clearInterval(interval);
   }, []);
 
-  // 1. Real Pipeline Execution Trigger
+  // 1. Pipeline Execution
   const handleExecutePipeline = async () => {
     setExecuting(true);
     setErrorBanner(null);
@@ -175,15 +173,15 @@ ORDER BY total_revenue DESC;`);
 
       const result = await res.json();
       setLastRunResult(result);
-      fetchRuns(); // refresh runs list
+      fetchRuns();
     } catch (err: any) {
-      setErrorBanner(err.message || 'Failed to connect to backend engine.');
+      setErrorBanner(err.message || 'Failed to execute pipeline.');
     } finally {
       setExecuting(false);
     }
   };
 
-  // 2. Real DuckDB SQL Query Execution
+  // 2. DuckDB SQL Query
   const handleExecuteSql = async () => {
     setSqlExecuting(true);
     setSqlError(null);
@@ -206,7 +204,7 @@ ORDER BY total_revenue DESC;`);
     }
   };
 
-  // 3. Real Connector Test
+  // 3. Connector Test
   const handleTestConnector = async (name: string) => {
     setTestingConnector(name);
     try {
@@ -223,7 +221,7 @@ ORDER BY total_revenue DESC;`);
     }
   };
 
-  // 4. Real Schema Register
+  // 4. Schema Register
   const handleRegisterSchema = async () => {
     try {
       const payload = {
@@ -274,22 +272,24 @@ ORDER BY total_revenue DESC;`);
 
   return (
     <div className="h-screen w-screen flex flex-col bg-slate-950 text-slate-100 overflow-hidden font-sans">
-      {/* Top Navbar */}
-      <header className="h-16 bg-slate-900 border-b border-slate-800 flex items-center justify-between px-6 select-none shrink-0 shadow-lg">
-        <div className="flex items-center space-x-3">
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center font-bold text-slate-950 shadow-lg shadow-emerald-500/20">
+      {/* Top Navbar - Clean, vertically centered and wrap-safe */}
+      <header className="py-3 px-6 bg-slate-900 border-b border-slate-800 flex items-center justify-between select-none shrink-0 shadow-lg gap-4">
+        {/* Brand Logo & Title */}
+        <div className="flex items-center space-x-3 shrink-0">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center font-bold text-slate-950 shadow-md shadow-emerald-500/20 shrink-0">
             <GitBranch className="w-5 h-5 stroke-[2.5]" />
           </div>
-          <div>
+          <div className="flex flex-col justify-center">
             <div className="flex items-center space-x-2">
-              <span className="font-bold text-base tracking-tight text-white">PipeWeave Studio</span>
-              <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 font-semibold border border-emerald-500/20">v1.0 (Live Engine)</span>
+              <span className="font-bold text-base tracking-tight text-white leading-none">PipeWeave Studio</span>
+              <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 font-semibold border border-emerald-500/20 whitespace-nowrap">v1.0 Live</span>
             </div>
-            <span className="text-xs text-slate-400 font-mono">E-Commerce Real-Time Order Stream</span>
+            <span className="text-xs text-slate-400 font-mono mt-1 leading-none">E-Commerce Real-Time Order Stream</span>
           </div>
         </div>
 
-        <nav className="flex space-x-1 bg-slate-950/80 p-1 rounded-xl border border-slate-800">
+        {/* Center Tabs Navigation */}
+        <nav className="flex space-x-1 bg-slate-950/80 p-1 rounded-xl border border-slate-800 shrink-0">
           {tabs.map((t) => {
             const Icon = t.icon;
             const isActive = activeTab === t.id;
@@ -297,36 +297,37 @@ ORDER BY total_revenue DESC;`);
               <button
                 key={t.id}
                 onClick={() => setActiveTab(t.id)}
-                className={`flex items-center space-x-2 px-3.5 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                className={`flex items-center space-x-2 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
                   isActive
                     ? 'bg-emerald-500 text-slate-950 font-bold shadow-md shadow-emerald-500/20'
                     : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
                 }`}
               >
-                <Icon className="w-3.5 h-3.5" />
-                <span>{t.label}</span>
+                <Icon className="w-3.5 h-3.5 shrink-0" />
+                <span className="whitespace-nowrap">{t.label}</span>
               </button>
             );
           })}
         </nav>
 
-        <div className="flex items-center space-x-3">
+        {/* Right Execution CTA & Status */}
+        <div className="flex items-center space-x-3 shrink-0">
           {lastRunResult && (
-            <span className="flex items-center space-x-1.5 text-emerald-400 text-xs font-semibold bg-emerald-950/40 border border-emerald-500/30 px-3 py-1 rounded-lg">
-              <CheckCircle2 className="w-4 h-4" />
+            <span className="flex items-center space-x-1.5 text-emerald-400 text-xs font-semibold bg-emerald-950/40 border border-emerald-500/30 px-3 py-1.5 rounded-lg whitespace-nowrap">
+              <CheckCircle2 className="w-4 h-4 shrink-0" />
               <span>Run {lastRunResult.run_id}: {lastRunResult.records_processed} rows in {lastRunResult.duration_ms}ms</span>
             </span>
           )}
           {errorBanner && (
-            <span className="flex items-center space-x-1.5 text-red-400 text-xs font-semibold bg-red-950/40 border border-red-500/30 px-3 py-1 rounded-lg">
-              <AlertTriangle className="w-4 h-4" />
+            <span className="flex items-center space-x-1.5 text-red-400 text-xs font-semibold bg-red-950/40 border border-red-500/30 px-3 py-1.5 rounded-lg whitespace-nowrap">
+              <AlertTriangle className="w-4 h-4 shrink-0" />
               <span>{errorBanner}</span>
             </span>
           )}
           <button
             onClick={handleExecutePipeline}
             disabled={executing}
-            className="flex items-center space-x-2 bg-emerald-500 hover:bg-emerald-400 active:scale-95 text-slate-950 font-bold px-4 py-2 rounded-lg text-xs shadow-lg shadow-emerald-500/20 transition-all cursor-pointer disabled:opacity-50"
+            className="flex items-center space-x-2 bg-emerald-500 hover:bg-emerald-400 active:scale-95 text-slate-950 font-bold px-4 py-2 rounded-lg text-xs shadow-lg shadow-emerald-500/20 transition-all cursor-pointer disabled:opacity-50 whitespace-nowrap shrink-0"
           >
             {executing ? <RefreshCw className="w-3.5 h-3.5 animate-spin" /> : <Play className="w-3.5 h-3.5 fill-current" />}
             <span>{executing ? 'Executing Backend DAG...' : 'Execute Pipeline'}</span>
@@ -335,12 +336,13 @@ ORDER BY total_revenue DESC;`);
       </header>
 
       {/* Main View Area */}
-      <main className="flex-1 overflow-y-auto bg-slate-950 p-8">
+      <main className="flex-1 overflow-y-auto bg-slate-950 p-6 md:p-8">
         {/* VIEW 1: DAG CANVAS */}
         {activeTab === 'canvas' && (
-          <div className="h-full flex flex-col justify-between">
-            <div className="flex items-center justify-between bg-slate-900/90 border border-slate-800 px-6 py-3 rounded-2xl shadow-xl mb-8">
-              <div className="flex space-x-6 text-xs font-mono">
+          <div className="flex flex-col space-y-6 max-w-7xl mx-auto">
+            {/* Top Status Metrics Strip */}
+            <div className="flex flex-wrap items-center justify-between bg-slate-900/90 border border-slate-800 px-6 py-3.5 rounded-2xl shadow-xl gap-4">
+              <div className="flex flex-wrap items-center gap-6 text-xs font-mono">
                 <span className="text-slate-400">Topology: <strong className="text-emerald-400">Linear DAG ({nodes.length} Nodes)</strong></span>
                 <span className="text-slate-400">Live Throughput: <strong className="text-white">{metrics.throughput_rps?.toLocaleString()} rec/sec</strong></span>
                 <span className="text-slate-400">Engine State: <strong className="text-emerald-400">ACTIVE ENGINE</strong></span>
@@ -348,44 +350,47 @@ ORDER BY total_revenue DESC;`);
               <span className="text-xs text-slate-500 font-mono">Embedded DuckDB + Great Expectations Gate</span>
             </div>
 
-            <div className="flex items-center justify-center space-x-4 my-auto overflow-x-auto py-8">
-              {nodes.map((node: any, idx: number) => {
-                const nodeOutput = lastRunResult?.node_outputs?.[node.id];
-                return (
-                  <React.Fragment key={node.id}>
-                    <div className="bg-slate-900 border-2 border-emerald-500/40 hover:border-emerald-400 hover:scale-105 transition-all duration-200 rounded-2xl p-5 w-64 shadow-2xl backdrop-blur-sm">
-                      <div className="flex items-center justify-between mb-3">
-                        <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-slate-950 text-emerald-400 font-mono">{node.type}</span>
-                        <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+            {/* Horizontal Scrollable Flow Canvas with Safe Left Padding */}
+            <div className="bg-slate-900/40 border border-slate-800/80 rounded-3xl p-6 md:p-8 shadow-2xl overflow-x-auto">
+              <div className="flex items-center justify-start xl:justify-center space-x-4 min-w-max py-6 px-4">
+                {nodes.map((node: any, idx: number) => {
+                  const nodeOutput = lastRunResult?.node_outputs?.[node.id];
+                  return (
+                    <React.Fragment key={node.id}>
+                      <div className="bg-slate-900 border-2 border-emerald-500/40 hover:border-emerald-400 hover:scale-105 transition-all duration-200 rounded-2xl p-5 w-56 shadow-2xl shrink-0 backdrop-blur-sm">
+                        <div className="flex items-center justify-between mb-3">
+                          <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-slate-950 text-emerald-400 font-mono">{node.type}</span>
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                        </div>
+                        <h3 className="text-sm font-semibold text-white mb-1 truncate">{node.name}</h3>
+                        <p className="text-xs text-slate-400 mb-3 line-clamp-2">{node.desc}</p>
+                        <div className="pt-2 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400 font-mono">
+                          <span>Status</span>
+                          <span className="text-emerald-400 font-bold">{nodeOutput?.status || 'READY'}</span>
+                        </div>
                       </div>
-                      <h3 className="text-sm font-semibold text-white mb-1 truncate">{node.name}</h3>
-                      <p className="text-xs text-slate-400 mb-3">{node.desc}</p>
-                      <div className="pt-2 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400 font-mono">
-                        <span>Status</span>
-                        <span className="text-emerald-400 font-bold">{nodeOutput?.status || 'READY'}</span>
-                      </div>
-                    </div>
 
-                    {idx < nodes.length - 1 && (
-                      <div className="flex flex-col items-center">
-                        <div className="h-0.5 w-8 bg-gradient-to-r from-emerald-500 to-teal-400" />
-                        <ArrowRight className="w-4 h-4 text-emerald-400 -mt-2" />
-                      </div>
-                    )}
-                  </React.Fragment>
-                );
-              })}
+                      {idx < nodes.length - 1 && (
+                        <div className="flex flex-col items-center shrink-0">
+                          <div className="h-0.5 w-6 bg-gradient-to-r from-emerald-500 to-teal-400" />
+                          <ArrowRight className="w-4 h-4 text-emerald-400 -mt-2" />
+                        </div>
+                      )}
+                    </React.Fragment>
+                  );
+                })}
+              </div>
             </div>
             
-            <div className="text-center text-xs text-slate-500 font-mono pt-4">
+            <div className="text-center text-xs text-slate-500 font-mono pt-2">
               Click "Execute Pipeline" at top-right to trigger real DAG scheduler, ingestion, DuckDB transformation & ClickHouse sink.
             </div>
           </div>
         )}
 
-        {/* VIEW 2: TRANSFORM IDE (REAL DUCKDB QUERY WORKBENCH) */}
+        {/* VIEW 2: TRANSFORM IDE */}
         {activeTab === 'sql' && (
-          <div className="h-full flex flex-col space-y-4">
+          <div className="h-full flex flex-col space-y-4 max-w-7xl mx-auto">
             <div className="flex justify-between items-center">
               <div>
                 <h2 className="text-lg font-bold text-white flex items-center space-x-2">
@@ -408,7 +413,7 @@ ORDER BY total_revenue DESC;`);
               <div className="bg-slate-900 border border-slate-800 rounded-xl flex flex-col overflow-hidden shadow-xl">
                 <div className="bg-slate-950 px-4 py-2 text-xs font-mono text-slate-400 border-b border-slate-800 flex justify-between">
                   <span>order_revenue_agg.sql</span>
-                  <span className="text-purple-400">DuckDB 0.10.0 (Embedded)</span>
+                  <span className="text-purple-400">DuckDB 1.5.5 (Embedded)</span>
                 </div>
                 <textarea
                   value={sqlQuery}
@@ -461,9 +466,9 @@ ORDER BY total_revenue DESC;`);
           </div>
         )}
 
-        {/* VIEW 3: TELEMETRY (LIVE DYNAMIC METRICS) */}
+        {/* VIEW 3: TELEMETRY */}
         {activeTab === 'metrics' && (
-          <div className="space-y-6">
+          <div className="space-y-6 max-w-7xl mx-auto">
             <div className="flex justify-between items-center">
               <h2 className="text-lg font-bold text-white flex items-center space-x-2">
                 <Activity className="w-5 h-5 text-emerald-400" />
@@ -507,9 +512,9 @@ ORDER BY total_revenue DESC;`);
           </div>
         )}
 
-        {/* VIEW 4: SCHEMA REGISTRY (REAL PERSISTED SCHEMAS) */}
+        {/* VIEW 4: SCHEMA REGISTRY */}
         {activeTab === 'schema' && (
-          <div className="space-y-6">
+          <div className="space-y-6 max-w-7xl mx-auto">
             <div className="flex justify-between items-center">
               <h2 className="text-lg font-bold text-white flex items-center space-x-2">
                 <FileText className="w-5 h-5 text-cyan-400" />
@@ -561,9 +566,9 @@ ORDER BY total_revenue DESC;`);
           </div>
         )}
 
-        {/* VIEW 5: LINEAGE (REAL LINEAGE GRAPH) */}
+        {/* VIEW 5: LINEAGE */}
         {activeTab === 'lineage' && (
-          <div className="space-y-6">
+          <div className="space-y-6 max-w-7xl mx-auto">
             <h2 className="text-lg font-bold text-white flex items-center space-x-2">
               <Database className="w-5 h-5 text-indigo-400" />
               <span>Column-Level Data Lineage & Impact Analysis</span>
@@ -572,7 +577,7 @@ ORDER BY total_revenue DESC;`);
               {lineage?.nodes ? (
                 lineage.nodes.map((node: any, idx: number) => (
                   <React.Fragment key={node.table}>
-                    <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 w-72 shadow-xl">
+                    <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 w-72 shadow-xl shrink-0">
                       <div className="text-xs font-mono text-indigo-400 font-bold mb-4 pb-2 border-b border-slate-800 flex justify-between">
                         <span>{node.table}</span>
                         <span className="text-[10px] text-slate-500">{node.type}</span>
@@ -586,7 +591,7 @@ ORDER BY total_revenue DESC;`);
                         ))}
                       </div>
                     </div>
-                    {idx < lineage.nodes.length - 1 && <ArrowRight className="w-6 h-6 text-indigo-400 animate-pulse" />}
+                    {idx < lineage.nodes.length - 1 && <ArrowRight className="w-6 h-6 text-indigo-400 animate-pulse shrink-0" />}
                   </React.Fragment>
                 ))
               ) : (
@@ -596,9 +601,9 @@ ORDER BY total_revenue DESC;`);
           </div>
         )}
 
-        {/* VIEW 6: CONNECTORS (REAL PROBE & LATENCY TESTER) */}
+        {/* VIEW 6: CONNECTORS */}
         {activeTab === 'connectors' && (
-          <div className="space-y-6">
+          <div className="space-y-6 max-w-7xl mx-auto">
             <h2 className="text-lg font-bold text-white flex items-center space-x-2">
               <Plug className="w-5 h-5 text-emerald-400" />
               <span>Ingestion & Sink Connectors Vault</span>
@@ -633,9 +638,9 @@ ORDER BY total_revenue DESC;`);
           </div>
         )}
 
-        {/* VIEW 7: RUNS (PERSISTED EXECUTION RUNS HISTORY) */}
+        {/* VIEW 7: RUNS */}
         {activeTab === 'runs' && (
-          <div className="space-y-6">
+          <div className="space-y-6 max-w-7xl mx-auto">
             <div className="flex justify-between items-center">
               <h2 className="text-lg font-bold text-white flex items-center space-x-2">
                 <Cpu className="w-5 h-5 text-emerald-400" />
